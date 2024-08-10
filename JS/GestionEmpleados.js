@@ -12,7 +12,7 @@ let obj = [];
 let indexEmpleadoSeleccionado;
 
 // Cargar los datos desde un archivo JSON
-fetch("http://127.0.0.1:5502/JSON/Empleados.json")
+fetch("https://blank-blinks.github.io/ElZarape.github.io/JSON/Empleados.json")
     .then(response => response.json())
     .then(jsondata => {
         obj = jsondata;
