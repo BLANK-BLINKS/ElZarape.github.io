@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "estatus": "Activo",
+        "puesto": "Cocinero",
+        "RFC": "JUAP790101",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP001"
+    },
+    {
+        "id": 2,
+        "nombre": "Maria",
+        "apellido": "Gomez",
+        "estatus": "Activo",
+        "puesto": "Mesero",
+        "RFC": "MARG850202",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP002"
+    },
+    {
+        "id": 3,  
+        "nombre": "Ana",
+        "apellido": "Salitrillo",
+        "estatus": "Activo",
+        "puesto": "Gerente",
+        "RFC": "ANGO12345",
+        "rol": "Administrador",
+        "IdEmpleado": "EMP003"
+    },
+    {
+        "id": 4,
+        "nombre": "Luis",
+        "apellido": "Hernandez",
+        "estatus": "Activo",
+        "puesto": "Cajero",
+        "RFC": "LUHE860303",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP004"
+    },
+    {
+        "id": 5,
+        "nombre": "Carla",
+        "apellido": "Rodriguez",
+        "estatus": "Activo",
+        "puesto": "Bartender",
+        "RFC": "CARO870404",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP005"
+    },
+    {
+        "id": 6,
+        "nombre": "Pedro",
+        "apellido": "Martinez",
+        "estatus": "Inactivo",
+        "puesto": "Mesero",
+        "RFC": "PEMA880505",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP006"
+    },
+    {
+        "id": 7,
+        "nombre": "Lucia",
+        "apellido": "Fernandez",
+        "estatus": "Activo",
+        "puesto": "Cocinero",
+        "RFC": "LUFE890606",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP007"
+    },
+    {
+        "id": 8,
+        "nombre": "Miguel",
+        "apellido": "Lopez",
+        "estatus": "Activo",
+        "puesto": "Gerente",
+        "RFC": "MILO900707",
+        "rol": "Administrador",
+        "IdEmpleado": "EMP008"
+    },
+    {
+        "id": 9,
+        "nombre": "Sara",
+        "apellido": "Mendoza",
+        "estatus": "Activo",
+        "puesto": "Hostess",
+        "RFC": "SAME910808",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP009"
+    },
+    {
+        "id": 10,
+        "nombre": "Carlos",
+        "apellido": "Ruiz",
+        "estatus": "Inactivo",
+        "puesto": "Cocinero",
+        "RFC": "CARU920909",
+        "rol": "Empleado",
+        "IdEmpleado": "EMP010"
+    }
+]
