@@ -2,7 +2,7 @@ let obj = [];
 let indexProductoSeleccionado;
 
 // Cargar los datos desde un archivo JSON
-fetch("http://127.0.0.1:5502/JSON/Bebidas.json")
+fetch("https://blank-blinks.github.io/ElZarape.github.io/JSON/Bebidas.json")
     .then(response => response.json())
     .then(jsondata => {
         obj = jsondata;
