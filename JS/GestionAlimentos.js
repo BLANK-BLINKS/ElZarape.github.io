@@ -2,7 +2,7 @@ let obj = [];
 let indexProductoSeleccionado = null;
 
 // Cargar los datos desde un archivo JSON
-fetch("http://127.0.0.1:5502/JSON/Alimentos.json")
+fetch("https://blank-blinks.github.io/ElZarape.github.io/JSON/Alimentos.json")
     .then(response => {
         if (!response.ok) {
             throw new Error('Error en la red');
