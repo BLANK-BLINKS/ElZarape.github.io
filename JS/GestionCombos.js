@@ -3,7 +3,7 @@ let detalles = [];
 let ultimoComboId = null;
 
 // Cargar los datos desde el archivo JSON
-fetch("http://localhost:8080/webpp/JSON/Combos.json")
+fetch("https://blank-blinks.github.io/ElZarape.github.io/JSON/Combos.json")
     .then(response => response.json())
     .then(data => {
         combos = data.combos;
