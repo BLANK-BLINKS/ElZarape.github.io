@@ -91,9 +91,9 @@ function abrirFormActualizar() {
 }
 
 // Cerrar el formulario de actualización
-function cerrarFormActualizar() {
+/*function cerrarFormActualizar() {
     document.getElementById('formActualizar').style.display = 'none';
-}
+}*/
 
 // Cerrar el formulario de agregar
 function cerrarFormAgregar() {
