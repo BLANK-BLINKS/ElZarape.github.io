@@ -53,7 +53,7 @@ function limpiarFormulario() {
 }
 
 // Actualizar la tabla con los datos de las sucursales
-function actualizarTabla() {
+/*function actualizarTabla() {
     let cuerpo = "";
     obj.forEach((elemento, index) => {
         let registro =
@@ -69,7 +69,7 @@ function actualizarTabla() {
         cuerpo += registro;
     });
     document.getElementById("tblProductos").innerHTML = cuerpo;
-}
+}*/
 
 // Seleccionar una sucursal para actualizar
 function selectProducto(index) {
