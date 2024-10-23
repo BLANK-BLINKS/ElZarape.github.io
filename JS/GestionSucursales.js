@@ -21,10 +21,10 @@ function agregarSucursal() {
     const foto = fileInput.files[0] ? URL.createObjectURL(fileInput.files[0]) : '';
 
     // Validar campos
-    if (!nombre || !ubicacion || !horarioInicio || !horarioCierre) {
+    /*if (!nombre || !ubicacion || !horarioInicio || !horarioCierre) {
         alert("Por favor, complete todos los campos correctamente.");
         return;
-    }
+    }*/
 
     const nuevaSucursal = {
         id: obj.length + 1,
