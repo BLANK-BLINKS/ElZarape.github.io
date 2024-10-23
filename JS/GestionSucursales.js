@@ -86,9 +86,9 @@ function selectProducto(index) {
 }
 
 // Abrir el formulario de actualización
-function abrirFormActualizar() {
+/*function abrirFormActualizar() {
     document.getElementById('formActualizar').style.display = 'block';
-}
+}*/
 
 // Cerrar el formulario de actualización
 function cerrarFormActualizar() {
