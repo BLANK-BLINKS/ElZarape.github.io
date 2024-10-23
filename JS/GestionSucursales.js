@@ -91,9 +91,9 @@ function abrirFormActualizar() {
 }
 
 // Cerrar el formulario de actualización
-/*function cerrarFormActualizar() {
+function cerrarFormActualizar() {
     document.getElementById('formActualizar').style.display = 'none';
-}*/
+}
 
 // Cerrar el formulario de agregar
 function cerrarFormAgregar() {
@@ -110,10 +110,10 @@ function modificarSucursal() {
     const archivoImagen = document.getElementById('inputImagenActualizar').files[0];
 
     // Validar campos
-    if (!nombre || !ubicacion || !horarioInicio || !horarioCierre) {
+    /*if (!nombre || !ubicacion || !horarioInicio || !horarioCierre) {
         alert("Por favor, complete todos los campos correctamente.");
         return;
-    }
+    }*/
 
     const sucursal = obj.find(sucursal => sucursal.id == id);
     if (sucursal) {
