@@ -151,7 +151,7 @@ function eliminarAlimento() {
         alimento.estatus = alimento.estatus === 'Activo' ? 'Inactivo' : 'Activo';
         actualizarTabla();
         cerrarFormActualizar();
-        alert(`Alimento cambiado a estatus ${alimento.estatus}`);
+        /*alert(`Alimento cambiado a estatus ${alimento.estatus}`);*/
     } else {
         alert('Seleccione un alimento válido para eliminar');
     }
@@ -210,7 +210,7 @@ function convertirArchivoABase64(file, callback) {
     reader.onload = function (event) {
         callback(event.target.result);
     };
-    reader.readAsDataURL(file); // Asegúrate de usar readAsDataURL para convertir a base64
+    reader.readAsDataURL(file); 
 }
 
 // Previsualización de la imagen en el formulario de actualización
