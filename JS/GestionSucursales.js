@@ -53,7 +53,7 @@ function limpiarFormulario() {
 }
 
 // Actualizar la tabla con los datos de las sucursales
-/*function actualizarTabla() {
+function actualizarTabla() {
     let cuerpo = "";
     obj.forEach((elemento, index) => {
         let registro =
@@ -69,7 +69,7 @@ function limpiarFormulario() {
         cuerpo += registro;
     });
     document.getElementById("tblProductos").innerHTML = cuerpo;
-}*/
+}
 
 // Seleccionar una sucursal para actualizar
 function selectProducto(index) {
@@ -101,7 +101,7 @@ function cerrarFormAgregar() {
 }
 
 // Modificar una sucursal
-function modificarSucursal() {
+/*function modificarSucursal() {
     const id = parseInt(document.getElementById('idSucursalActualizar').value);
     const nombre = document.getElementById('nomSucursalActualizar').value;
     const ubicacion = document.getElementById('ubiActualizar').value;
